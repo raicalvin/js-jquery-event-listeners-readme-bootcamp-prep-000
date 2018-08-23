@@ -5,7 +5,9 @@ $(document).ready(function(){
   // call functions here
 
   function getIt() {
-    $('p').on()
+    $('p').on('click', function() {
+      alert("Hey!")l
+    });
   }
 
 
